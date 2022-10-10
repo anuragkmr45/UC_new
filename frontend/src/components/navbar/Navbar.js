@@ -27,10 +27,12 @@ function Navbar() {
 
     return (
         <>
-            {/* fixed-top */}
             <nav
-                style={{ backgroundColor: "#00000192" }}
-                className={navColour ? "navbar navbar-expand-lg fadeInDown fixed-top navbar-dark  bg-dark" : "navbar navbar-expand-lg navbar-dark fadeInDown head"}
+                className={
+                    navColour
+                        ? "navbar navbar-expand-lg fixed-top sticky"
+                        : "navbar navbar-expand-lg fixed-top head"
+                }
             >
                 <div className="container-fluid row">
                     <div className="col-lg-5">

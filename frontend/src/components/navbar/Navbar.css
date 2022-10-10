@@ -3,9 +3,15 @@
     margin-top: 0;
 }
 
+.nav-link{
+    color: aliceblue !important;
+    transition-duration: 0.3s;
+}
+
 .nav-link:hover {
-    color: #66fcf1;
-    border-bottom: 1px solid #00867d;
+    color: #66fcf1 !important;
+    transform: translateY(-2px) !important;
+    /* border-bottom: 1px solid #00867d; */
 }
 
 
@@ -19,8 +25,16 @@
     border: none;
 }
 
+.sticky {
+    background-color: rgba(34, 30, 22, 0.542);
+    box-shadow: 0px 10px 10px 0px rgba(106, 203, 195, 0.168) !important;
+    transition: all 0.3s ease-out 0s !important;
+    backdrop-filter: blur(25px) !important;
+}
+
 .head {
-    /* background-color: #212038d8; */
-    color: wheat;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    /* padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important; */
 }
