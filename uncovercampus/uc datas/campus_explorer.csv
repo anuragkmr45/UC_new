@@ -1,0 +1,97 @@
+"id"	"exp_type"	"name"	"college_name"	"cllg_location"	"dist_from_college"	"rating"	"cost_for_2"
+1	"cafes"	"echoes satyaniketan"	"Atma Ram Sanatan Dharma College"		"5 minutes"	4	500
+3	"cafes"	"Bon Appetite"	"DAULAT RAM COLLEGE (DRC)"		"5 minutes"	4	500
+14	"cafes"	"Railway Yard"	"DAULAT RAM COLLEGE (DRC)"		"9 minutes"	4	300
+15	"cafes"	"Paparizza"	"DAULAT RAM COLLEGE (DRC)"		"5 minutes"	4	500
+18	"cafes"	"Burger King"	"DAULAT RAM COLLEGE (DRC)"		"5 minutes"	4	500
+19	"cafes"	"Dominos"	"DAULAT RAM COLLEGE (DRC)"		"2 minute"	4	500
+20	"cafes"	"lazy rolls"	"Deen Dayal Upadhyaya College"		"6 minutes"	4	300
+21	"cafes"	"Da food adda"	"Deen Dayal Upadhyaya College"		"5 minutes"	4	300
+22	"cafes"	"lala da sudh vaisno dhaba"	"Deen Dayal Upadhyaya College"		"15 minutes"	4	300
+23	"cafes"	"the crazy food"	"Deen Dayal Upadhyaya College"		"6 minutes"	4	300
+24	"cafes"	"wow momo"	"Deen Dayal Upadhyaya College"		"8 minutes"	4	400
+25	"cafes"	"Moolchand Paratha                                                                            "	"GARGI COLLEGE"		"5 minutes"	4	500
+26	"cafes"	"Burgerama"	"GARGI COLLEGE"		"9 minutes"	4	500
+27	"cafes"	"Pizza on my Plate"	"GARGI COLLEGE"		"7 minutes"	4	500
+29	"cafes"	"The chinese and Thai restraunt"	"GARGI COLLEGE"		"5 minutes"	4	300
+30	"cafes"	"Sandburg Shakes"	"GARGI COLLEGE"		"7 minutes"	4	300
+31	"cafes"	"Big Yellow door"	"Sri Venkateshwara College"		"1.4km"	4	800
+32	"cafes"	"chai garam"	"Sri Venkateshwara College"		"1.9km"	3	350
+33	"cafes"	"QDS"	"Sri Venkateshwara College"		"1.8km"	4	1000
+34	"cafes"	"cafeteria and co"	"Sri Venkateshwara College"		"1.8km"	5	1300
+35	"cafes"	"KC restaurant"	"Sri Venkateshwara College"		"2km"	4	500
+36	"cafes"	"chai garam"	"SRI AUROBINDO COLLEGE "		"110m"	4	350
+37	"cafes"	"tea capital"	"SRI AUROBINDO COLLEGE "		"500m"	4	400
+38	"cafes"	"chai thela express"	"SRI AUROBINDO COLLEGE "		"1.7km"	4	200
+39	"cafes"	"honey and dough"	"SRI AUROBINDO COLLEGE "		"1.8km"	4	500
+40	"cafes"	"little hut"	"Miranda House "		"190m"	4	200
+41	"cafes"	"AMA cafe"	"Miranda House "		"3.9km"	5	550
+42	"cafes"	"hunger strike"	"Miranda House "		"850m"	3	400
+43	"cafes"	"hot spot fast food"	"Miranda House "		"1.1km"	4	350
+44	"cafes"	"one stop cafe"	"Miranda House "		"1.2km"	4	200
+45	"cafes"	"Ricos"	"Hansraj College "		"0.8km"	4	800
+46	"cafes"	"meghraj food court"	"Hansraj College "		"6.2km"	4	100
+47	"cafes"	"shyam chhat bhandar"	"Hansraj College "		"2.6km"	4	100
+48	"cafes"	"belly filler"	"Hansraj College "		"6.3km"	4	100
+49	"cafes"	"why not veg"	"Hansraj College "		"500m"	4	400
+50	"cafes"	"Delhi food corner"	"DESHBANDHU COLLEGE "		"3.3km"	4	300
+51	"cafes"	"pahadi caters"	"DESHBANDHU COLLEGE "		"250m"	4	300
+52	"cafes"	"uncle xpress"	"DESHBANDHU COLLEGE "		"240m"	4	350
+53	"cafes"	"anna da dosa"	"DESHBANDHU COLLEGE "		"250m"	4	200
+54	"cafes"	"uncle chef"	"DESHBANDHU COLLEGE "		"240m"	4	300
+55	"cafes"	"indiwak"	"LADY SRI RAM COLLEGE "		"450m"	3	600
+56	"cafes"	"delhi roll company"	"LADY SRI RAM COLLEGE "		"450m"	3	250
+57	"cafes
+"	"soni food corner"	"LADY SRI RAM COLLEGE "		"8.8km"	4	250
+58	"cafes"	"moolchand paratha"	"LADY SRI RAM COLLEGE "		"1.5km"	4	400
+59	"cafes"	"the kapoor snack corner"	"LADY SRI RAM COLLEGE "		"5.3km"	4	100
+60	"cafes"	"Madras dosa and chinese corner"	"Sri Guru Gobind Singh College of Commerce"		"6 minutes"	4	600
+61	"cafes"	"Billus hut"	"Sri Guru Gobind Singh College of Commerce"		"5 minutes"	4	300
+62	"cafes"	"Giri Momos wala"	"Sri Guru Gobind Singh College of Commerce"		"7 minutes"	4	300
+63	"cafes"	"Bille di hatti"	"Sri Guru Gobind Singh College of Commerce"		"4minutes"	4	200
+64	"cafes"	"Pandey Chinese Hut "	"Sri Guru Gobind Singh College of Commerce"		"7 minutes"	4	300
+65	"cafes"	"rajinder da dhaba"	"Maitreyi College"		"5.6km"	4	500
+66	"cafes"	"mom hand momo"	"Maitreyi College"		"3.9km"	4	100
+67	"cafes"	"kc resturant"	"Maitreyi College"		"14,8km"	4	200
+68	"cafes"	"behroz biryaani"	"Maitreyi College"		"4.8km"	4	800
+69	"cafes"	"berco's "	"Maitreyi College"		"3.9km"	4	500
+70	"cafes"	"echoes satyaniketan"	"Atma Ram Sanatan Dharma College "		"4.6 km"	4	800
+71	"cafes"	"grillbtothers"	"Atma Ram Sanatan Dharma College "		"4.6 km"	4	300
+72	"cafes"	"mom hand momos"	"Atma Ram Sanatan Dharma College "		"4.4 km"	4	300
+73	"cafes"	"mughal dy- nesty"	"Atma Ram Sanatan Dharma College "		"4.5 km"	4	500
+74	"cafes"	"pasta tom"	"Atma Ram Sanatan Dharma College "		"4.4 km"	4	300
+76	"cafes"	"rajinder da dhabha"	"DELHI COLLEGE OF ARTS AND COMMERCE"		"3 km"	4	500
+77	"cafes"	"mom hand momo"	"DELHI COLLEGE OF ARTS AND COMMERCE"		"4 km"	4	200
+78	"cafes"	"masala kitchen"	"DELHI COLLEGE OF ARTS AND COMMERCE"		"4.3 km"	4	200
+79	"cafes"	"karnataka food corner"	"DELHI COLLEGE OF ARTS AND COMMERCE"		"3.4 km"	4	300
+80	"cafes"	"china bowl"	"DELHI COLLEGE OF ARTS AND COMMERCE"		"4.4 km"	4	200
+81	"cafes"	"Railway Yard"	"HINDU COLLEGE"		"9 minutes"	4	0
+82		"Paparizza"	"HINDU COLLEGE"		"4 minutes"	4	0
+83	"cafes"	"Bon Appetite"	"HINDU COLLEGE"		"4 minutes"	4	0
+84	"cafes"	"Billu's Hut"	"HINDU COLLEGE"		"4 minutes"	4	0
+85	"cafes"	"Pizza nostra"	"HINDU COLLEGE"		"5 minutes"	4	0
+86	"cafes"	"new feast"	"JANKI DEVI MEMORIAL COLLEGE"		"600 m"	4	300
+87	"cafes"	"taste baaz"	"JANKI DEVI MEMORIAL COLLEGE"		"1.2 km"	4	500
+88	"cafes"	"art of spices"	"JANKI DEVI MEMORIAL COLLEGE"		"450 m"	4	450
+89	"cafes"	"wrap and roll"	"JANKI DEVI MEMORIAL COLLEGE"		"290 m"	4	400
+90	"cafes"	"new spot"	"JANKI DEVI MEMORIAL COLLEGE"		"3.3 km"	4	200
+91	"cafes"	"The Chill Project"	"KALINDI COLLEGE"		"4 minutes"	4	500
+92	"cafes"	"Rooh burger cafe"	"KALINDI COLLEGE"		"10 minutes"	4	300
+93	"cafes"	"Hashtag Foods"	"KALINDI COLLEGE"		"13 minutes"	4	500
+94	"cafes"	"Pizza nostra"	"KALINDI COLLEGE"		"14 minutes"	4	300
+95	"cafes"	"Pandit ji parantha hut"	"KALINDI COLLEGE"		"13 minutes"	4	500
+96	"cafes"	"defence food corner"	"KAMLA NEHRU COLLEGE"		"1.2 km"	3	400
+97	"cafes"	"late night cafe"	"KAMLA NEHRU COLLEGE"		"1.5 km"	4	500
+98	"cafes"	"jua heads"	"KAMLA NEHRU COLLEGE"		"650 m"	4	500
+99	"cafes"	"veere di malai chaap"	"KAMLA NEHRU COLLEGE"		"1.11 km"	4	400
+100	"cafes"	"Hangchuas chinese food"	"KAMLA NEHRU COLLEGE"		"1.6 km"	3	300
+101	"cafes"	"wow momo"	"Kirori mal college"		"750 km"	4	400
+102	"cafes"	"om di hATTI"	"Kirori mal college"		"1.1 km"	4	200
+103	"cafes"	"ever bake"	"Kirori mal college"		"8 km"	4	300
+104	"cafes"	"pandit ji paratha"	"Kirori mal college"		"4 km"	4	200
+105	"cafes"	"hudson chopsticks"	"Kirori mal college"		"2 km"	4	600
+106	"cafes"	"bhimsain bengali sweet house"	"Lady Irwin College"		"800 m"	4	400
+107	"cafes"	"monga snack"	"Lady Irwin College"		"1.8 km"	4	100
+108	"cafes"	"gurudev punjabi restaurant"	"Lady Irwin College"		"3.9 km"	4	250
+109	"cafes"	"vrinda vaishno dabha"	"Lady Irwin College"		"4 km"	4	200
+110	"cafes"	"guptaji pao bhaji"	"Lady Irwin College"		"4.7 km"	4	100
