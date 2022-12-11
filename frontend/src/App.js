@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar.js'
 
-import Home from './components/Home'
+import Home from './components/index/Home'
 
 // college finder imports
 import CllgFinder from './components/CllgFinder'
@@ -16,8 +16,8 @@ import CampexpSpecific from './components/CampexpSpecific';
 import CampexpCafe from './components/CampexpCafe';
 
 // events imports 
-import Events from './components/Events'
-import EventSpecific from './components/EventSpecific'
+import Events from './components/events/Events'
+import EventSpecific from './components/events/EventSpecific'
 
 // accommodation imports 
 import Accommodation from './components/Accommodation'
@@ -42,7 +42,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route index element={<Home />} />
 
@@ -52,17 +52,17 @@ function App() {
           <Route path='/CampusSpecificColleges/north' element={<NorthSpCllg />} />
           <Route path='/CampusSpecificColleges/off' element={<OffSpCllg />} />
           <Route path='/collegeSpecific/:id' element={<CllgSpecific />} />
-          
+
 
           {/* campus explorer start */}
           <Route path='/campusexplorer' element={<CampExp />} />
           <Route path='/campusexplorerspecific/:collegeName' element={<CampexpSpecific />} />
           <Route path='/cafesnearcollege/:id' element={<CampexpCafe />} />
-          
+
           {/* events start */}
           <Route path='/events' element={<Events />} />
           <Route path='/eventspecific' element={<EventSpecific />} />
-          
+
           {/* accommodation start */}
           <Route path='/accommodation' element={<Accommodation />} />
           <Route path='/accomodationnearme/:id' element={<AccomodSpecific />} />
@@ -72,7 +72,7 @@ function App() {
 
           {/* about */}
           <Route path='/about' element={<About />} />
-          
+
           {/* Error page */}
           <Route path='*' element={<Home />} />
 

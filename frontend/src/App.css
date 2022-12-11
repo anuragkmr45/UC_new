@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Source+Sans+Pro&display=swap');
 
 
 * {
@@ -11,7 +11,7 @@ body {
   color: whitesmoke;
   background-color: black;
   /* background-color: #171717; */
-  font-family: 'Jaldi', sans-serif;
+  font-family: 'Manrope', sans-serif;
   overflow-x: hidden
 }
 
@@ -50,11 +50,13 @@ h5 span {
 
 .cardStyle1 {
   background-color: rgba(37, 37, 37, 0.627);
-  border: 1px solid black;
+  border: 2px solid black;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
+  margin: 1rem;
   transition-duration: .6s;
   cursor: pointer;
+  box-shadow: 0px 0px 14px 0px rgba(255, 64, 0, 0.633);
 }
 
 .cardStyle1 h4 {
@@ -62,7 +64,8 @@ h5 span {
 }
 
 .cardStyle1:hover {
-  border: 1px solid #66fcf1;
+  border: 2px solid rgba(224, 73, 23, 0.633);
+  box-shadow: none;
 }
 
 

@@ -3,9 +3,9 @@
     margin-top: 0;
 }
 
-.nav-link{
+.nav-link {
     color: aliceblue !important;
-    transition-duration: 0.3s;
+    transition-duration: 0.3s !important;
 }
 
 .nav-link:hover {
@@ -13,7 +13,6 @@
     transform: translateY(-2px) !important;
     /* border-bottom: 1px solid #00867d; */
 }
-
 
 .dropdown-item:hover {
     /* border-bottom: 2px solid #00867d; */
