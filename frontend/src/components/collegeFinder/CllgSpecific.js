@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-import { API } from '../service/api'
+import { API } from '../../service/api'
 
 import { FaUniversity } from "react-icons/fa";
 
-import BgImg3 from "../images/BgImg-4.jpg";
+import BgImg3 from "../../images/BgImg-4.jpg";
 
-import CllgImg from '../images/BgImg-2.jpg'
+import CllgImg from '../../images/BgImg-2.jpg'
 
 function CllgSpecific() {
 

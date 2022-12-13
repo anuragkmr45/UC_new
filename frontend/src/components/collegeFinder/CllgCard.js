@@ -16,12 +16,12 @@ function CllgCard(props) {
         return (
             <>{
                 <div className="col-lg-3 col-md-col-4 col-sm-12 fadeInLeft" onClick={smoothDirect}>
-                        <div className="card cardStyle2" onClick={() => { navigate(`/collegeSpecific/${props.id}`) }}>
-                            <img src="..." className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h2 className="card-text">{props.cllgname}</h2>
-                            </div>
+                    <div className="card cardStyle2" onClick={() => { navigate(`/collegeSpecific/${props.id}`) }}>
+                        <img src="..." className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h2 className="card-text">{props.cllgname}</h2>
                         </div>
+                    </div>
                 </div>
             }
             </>

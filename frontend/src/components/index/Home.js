@@ -13,7 +13,7 @@ import { ImBooks } from "react-icons/im";
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import { HiOutlineLightBulb } from "react-icons/hi";
 
-import CllgCard from "../CllgCard";
+import CllgCard from "../collegeFinder/CllgCard";
 import OwlCarousel from './OwlCarousel';
 // import TextCarousel from "./TextCarousel";
 
@@ -113,7 +113,7 @@ function Home() {
                   <div className="d-flex flex-wrap justify-content-around">
                     <div onClick={smoothDirect} style={{ cursor: 'pointer' }}>
                       <div className="text-center" onClick={() => { navigate('/collegefinder') }}>
-                        <FaUniversity fontSize="3.5rem" color="rgb(224 72 23)" />
+                        <FaUniversity fontSize="3.5rem" className='icons' />
                         <h4>50</h4>
                         <h5>Colleges</h5>
                         <hr style={{ color: "aqua", border: "2px solid aqua" }} />
@@ -122,7 +122,7 @@ function Home() {
 
                     <div onClick={smoothDirect} style={{ cursor: 'pointer' }}>
                       <div className="text-center" onClick={() => { navigate('/campusexplorer') }}>
-                        <FaSchool fontSize="3.5rem" color="rgb(224 72 23)" />
+                        <FaSchool fontSize="3.5rem" className='icons' />
                         <h4>95</h4>
                         <h5>Area To Explor</h5>
                         <hr style={{ color: "aqua", border: "2px solid aqua" }} />
@@ -131,7 +131,7 @@ function Home() {
 
                     <div onClick={smoothDirect} style={{ cursor: 'pointer' }}>
                       <div className="text-center" onClick={() => { navigate('/events') }}>
-                        <BiStreetView fontSize="3.5rem" color="rgb(224 72 23)" />
+                        <BiStreetView fontSize="3.5rem" className='icons' />
                         <h4>20</h4>
                         <h5>Events</h5>
                         <hr style={{ color: "aqua", border: "2px solid aqua" }} />
@@ -140,7 +140,7 @@ function Home() {
 
                     <div onClick={smoothDirect} style={{ cursor: 'pointer' }}>
                       <div className="text-center" onClick={() => { navigate('/accommodation') }}>
-                        <BiBuildingHouse fontSize="3.5rem" color="rgb(224 72 23)" />
+                        <BiBuildingHouse fontSize="3.5rem" className='icons' />
                         <h4>20</h4>
                         <h5>Accommodations</h5>
                         <hr style={{ color: "aqua", border: "2px solid aqua" }} />
@@ -164,7 +164,7 @@ function Home() {
       <section>
 
         <div className="container my-5 text-center">
-          <h2>Our <b style={{ color: 'rgb(224 72 23)' }}>Services</b> </h2>
+          <h2>Our <span><b>Services</b></span> </h2>
           <OwlCarousel />
         </div>
 
@@ -194,7 +194,7 @@ function Home() {
               <h2> <span>About Us</span></h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nam quae, modi illo, provident corrupti officiis at magni aut error aliquam! At illo soluta consequuntur quidem id repellendus, quia omnis.</p>
               <div className='d-flex'>
-                <HiOutlineLightBulb color='aqua' fontSize='5rem' className='m-2' />
+                <HiOutlineLightBulb className='icons m-2' fontSize='5rem' />
                 <div>
                   <h4> <span>who we are</span> </h4>
                   <p style={{ color: 'rgb(197 200 210)' }}>
@@ -204,7 +204,7 @@ function Home() {
               </div>
 
               <div className='d-flex'>
-                <BsFillCheckCircleFill color='aqua' fontSize='5rem' className='m-2' />
+                <BsFillCheckCircleFill fontSize='5rem' className='m-2 icons' />
                 <div>
                   <h4> <span>Our Mission</span> </h4>
                   <p style={{ color: 'rgb(197 200 210)' }}>
@@ -224,7 +224,7 @@ function Home() {
       >
         <div className="container">
           <div className="heading text-center">
-            <h2> College Finder</h2>
+            <h2><span> College</span> Finder</h2>
             <hr className="mx-auto" style={hrLine} />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -244,7 +244,7 @@ function Home() {
       <div className="py-5">
         <div className="container">
           <div className="heading text-center">
-            <h2>Campus Explorer</h2>
+            <h2><span> Campus</span> Explorer</h2>
             <hr className="mx-auto" style={hrLine} />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.

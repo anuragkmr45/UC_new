@@ -37,13 +37,13 @@ function Events() {
           </div>
         </div>
       </section>
-      <div className="container py-5" style={{ backgroundColor: "rgba(33,37,41)" }}>
+      <div className="container py-5" style={{ backgroundColor: "rgba(33,37,41)", borderRadius: "1.5rem" }}>
         <div className="row">
           <div className="col-lg-6 col-md-6 col-sm-12 fadeInLeft">
             <div className="container-fluid">
               <h3 className="display-5"><span>Top</span> Events</h3>
               <p className="">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-              <button type="button" className="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Your Event With Us</button>
+              <button type="button" className="btn icons" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register Your Event With Us</button>
 
               {/* <!-- Modal --> */}
               <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style={{ backgroundColor: "rgba(7, 7, 7, 0.827)" }}>

@@ -22,10 +22,10 @@ function ServiceCard(props) {
 
     return (
         <>
-            <div className="lightCard" onClick={smoothDirect}>
+            <div className="lightCard " onClick={smoothDirect}>
                 <div className="card mb-3 cardStyle1 fadeInUp" onClick={() => { navigate(`/${props.link}`) }}>
                     <div className="card-body">
-                        <FaUniversity fontSize="5rem" color="aqua" />
+                        <FaUniversity className='icons' fontSize="5rem" />
                         <h4 className="card-title">{props.service}</h4>
                         <hr style={hrLine} />
                         <div className="elementor-divider">

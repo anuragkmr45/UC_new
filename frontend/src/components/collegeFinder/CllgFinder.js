@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 import { useNavigate } from 'react-router-dom'
 
-import { API } from '../service/api.js';
+import { API } from '../../service/api.js';
 
 import { FaUniversity, FaSchool } from "react-icons/fa";
 import { MdSchool } from "react-icons/md";
 
-import BgImg1 from '../images/BgImg-1.jpg'
+import BgImg1 from '../../images/BgImg-1.jpg'
 
 import CllgCard from './CllgCard.js';
 
@@ -42,7 +42,7 @@ function CllgFinder() {
 
   useEffect(() => {
     const fetchData = async () => {
-      
+
       try {
 
         let res = await API.getAllCllg({});
@@ -59,7 +59,7 @@ function CllgFinder() {
 
   return (
     <>
-      <div className="p-1" style={{ backgroundColor: "#28282B" }}>
+      <div className="p-1 heroSec1">
         <div className="px-4 py-5 my-5 text-center fadeInDown">
           <h1 className="display-5 fw-bold"><span> College</span>  Finder</h1>
           <div className="col-lg-6 mx-auto">
@@ -68,35 +68,35 @@ function CllgFinder() {
             </div>
           </div>
         </div>
-        <div className="d-flex justify-content-around mb-5 fadeInUp">
-          <Link to='nc' spy={true} smooth={true} offset={1}>
-            <div className="campus btn-1">
-              <div className="content text-center">
-                <FaUniversity fontSize='4rem' />
-                <h5>NORTH CAMPUS</h5>
-              </div>
+      </div>
+      <div className="d-flex justify-content-around pb-5 fadeInUp" style={{ backgroundColor: "rgba(24, 24, 24, 0.7)" }}>
+        <Link to='nc' spy={true} smooth={true} offset={1}>
+          <div className="campus btn-1">
+            <div className="content text-center">
+              <FaUniversity fontSize='4rem' />
+              <h5>NORTH CAMPUS</h5>
             </div>
-          </Link>
-          <Link to='sc' spy={true} smooth={true} offset={1}>
-            <div className="campus btn-1">
-              <div className="content text-center">
-                <FaSchool fontSize='4rem' />
-                <h5>South CAMPUS</h5>
-              </div>
+          </div>
+        </Link>
+        <Link to='sc' spy={true} smooth={true} offset={1}>
+          <div className="campus btn-1">
+            <div className="content text-center">
+              <FaSchool fontSize='4rem' />
+              <h5>South CAMPUS</h5>
             </div>
-          </Link>
-          <Link to='oc' spy={true} smooth={true} offset={1}>
-            <div className="campus btn-1">
-              <div className="content text-center">
-                <MdSchool fontSize='4rem' />
-                <h5>Off CAMPUS</h5>
-              </div>
+          </div>
+        </Link>
+        <Link to='oc' spy={true} smooth={true} offset={1}>
+          <div className="campus btn-1">
+            <div className="content text-center">
+              <MdSchool fontSize='4rem' />
+              <h5>Off CAMPUS</h5>
             </div>
-          </Link>
-        </div>
+          </div>
+        </Link>
       </div>
 
-      <section style={parallex}>
+      <section style={{ backgroundColor: "#1B1B1B" }}>
 
         <div className="container py-5" name='nc'>
           <div className='d-flex justify-content-between'>
@@ -110,7 +110,7 @@ function CllgFinder() {
           <hr style={hrLine} />
           <div className="row fadeInDown">
 
-          {
+            {
               posts.slice(0, 3).map((post, i) => (
                 <CllgCard key={i} id={post._id} cllgname={post.cllgName} camp={post.campus} campus='south' />
               ))
@@ -150,7 +150,7 @@ function CllgFinder() {
           </div>
           <hr style={hrLine} />
           <div className="row">
-          {
+            {
               posts.slice(0, 3).map((post, i) => (
                 <CllgCard key={i} id={post._id} cllgname={post.cllgName} camp={post.campus} campus='north' />
               ))

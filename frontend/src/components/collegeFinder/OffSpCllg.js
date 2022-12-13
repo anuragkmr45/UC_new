@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from 'react'
-// import { useNavigate } from 'react-router-dom'
 
-import { API } from '../service/api.js';
+import { API } from '../../service/api.js';
 
-import BgImg1 from '../images/BgImg-1.jpg'
+import BgImg1 from '../../images/BgImg-1.jpg'
 
 import CllgCard from './CllgCard.js';
 
-function SouthSpCllg() {
+function OffSpCllg() {
 
     const parallex = {
         backgroundImage: `url(${BgImg1})`,
@@ -40,7 +39,7 @@ function SouthSpCllg() {
             <section style={parallex}>
                 <div className="container">
                     <div className="px-4 py-5 my-5 text-center fadeInUp">
-                        <h1 className="display-5 fw-bold">South Campus Colleges</h1>
+                        <h1 className="display-5 fw-bold">Off Campus Colleges</h1>
                         <div className="col-lg-6 mx-auto">
                             <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, </p>
                             <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -77,7 +76,7 @@ function SouthSpCllg() {
                 <div className="row">
                     {
                         posts.map((post, i) => (
-                            <CllgCard key={i} id={post._id} cllgname={post.cllgName} camp={post.campus} campus='south' />
+                            <CllgCard key={i} id={post._id} cllgname={post.cllgName} camp={post.campus} campus='off' />
                         ))
                     }
                 </div>
@@ -86,4 +85,4 @@ function SouthSpCllg() {
     )
 }
 
-export default SouthSpCllg
+export default OffSpCllg

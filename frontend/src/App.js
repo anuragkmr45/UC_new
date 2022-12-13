@@ -4,11 +4,11 @@ import Navbar from './components/navbar/Navbar.js'
 import Home from './components/index/Home'
 
 // college finder imports
-import CllgFinder from './components/CllgFinder'
-import SouthSpCllg from './components/SouthSpCllg'
-import NorthSpCllg from './components/NorthSpCllg'
-import OffSpCllg from './components/OffSpCllg'
-import CllgSpecific from './components/CllgSpecific'
+import CllgFinder from './components/collegeFinder/CllgFinder'
+import SouthSpCllg from './components/collegeFinder/SouthSpCllg'
+import NorthSpCllg from './components/collegeFinder/NorthSpCllg'
+import OffSpCllg from './components/collegeFinder/OffSpCllg'
+import CllgSpecific from './components/collegeFinder/CllgSpecific'
 
 // campus explorer imports 
 import CampExp from './components/CampExp';

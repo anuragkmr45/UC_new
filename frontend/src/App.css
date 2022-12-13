@@ -8,7 +8,7 @@
 }
 
 body {
-  color: whitesmoke;
+  color: white;
   background-color: black;
   /* background-color: #171717; */
   font-family: 'Manrope', sans-serif;
@@ -28,29 +28,38 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #229b93;
 }
 
+.heroSec1 {
+  background-image: linear-gradient(rgb(41, 41, 41), rgba(24, 24, 24, 0.7));
+}
+
+.icons {
+  color: #7E91FF;
+}
+
 h1 span {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
 }
 
 h2 span {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
 }
 
 h3 span {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
 }
 
 h4 span {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
 }
 
 h5 span {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
 }
 
 .cardStyle1 {
   background-color: rgba(37, 37, 37, 0.627);
   border: 2px solid black;
+  border-radius: 1.5rem;
   text-align: center;
   padding: 20px;
   margin: 1rem;
@@ -100,7 +109,7 @@ h5 span {
 
 .btn-2 {
   border: 2px solid grey;
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
   border-radius: 20%;
   padding: 15px;
   cursor: pointer;
@@ -112,7 +121,7 @@ h5 span {
 }
 
 .social:hover {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
   background-color: rgba(21, 21, 21, 0.63);
   transition-duration: .5s;
 }
@@ -249,7 +258,7 @@ h5 span {
 /* campus specific page  start */
 
 .item {
-  color: aqua;
+  color: rgba(255, 64, 0, 0.833);
   padding: 1.5rem;
   cursor: pointer;
   transition-duration: .6s;
